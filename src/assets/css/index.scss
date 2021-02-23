@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
 body {
   background-color: #171729 !important;
   .v-application {
     background-image: url("https://i.pinimg.com/originals/fb/48/79/fb4879283c9bf0a26e5e7fb6d823ba28.jpg") !important;
     background-size: 1000px !important;
-
+    font-family: 'Noto Sans JP', sans-serif;;
   }
 
   .v-card {

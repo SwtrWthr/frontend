@@ -4,6 +4,8 @@ import VueMeta from 'vue-meta'
 import Home from '../components/Home'
 import Site2 from '../components/Site2'
 import Sec from '../components/Sec'
+import ElGamal from '../components/ElGamal'
+import DH from '../components/DH'
 Vue.use(VueMeta)
 Vue.use(VueRouter)
 export default new VueRouter({
@@ -23,6 +25,16 @@ export default new VueRouter({
       path: '/is',
       name: 'security',
       component: Sec
+    },
+    {
+      path: '/elgamal',
+      name: 'elgamal',
+      component: ElGamal
+    },
+    {
+      path: '/diffie',
+      name: 'diffie',
+      component: DH
     }
   ]
 })
