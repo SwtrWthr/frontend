@@ -6,6 +6,7 @@ import Site2 from '../components/Site2'
 import Sec from '../components/Sec'
 import ElGamal from '../components/ElGamal'
 import DH from '../components/DH'
+import AC from '../components/AccessControl'
 Vue.use(VueMeta)
 Vue.use(VueRouter)
 export default new VueRouter({
@@ -35,6 +36,11 @@ export default new VueRouter({
       path: '/diffie',
       name: 'diffie',
       component: DH
+    },
+    {
+      path: '/secret',
+      name: 'secret',
+      component: AC
     }
   ]
 })
